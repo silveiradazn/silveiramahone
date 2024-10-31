@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eacb; 
+}
+
+header {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f3a712;
+}
+
+header h1 {
+    font-size: 28px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff9e6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffe680;
+    color: #333;
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff9966;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff704d;
+}
+
+td button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff2cc;
+}
+
+table tr:hover {
+    background-color: #ffe680;
+    transition: background-color 0.2s ease-in-out;
+}
+
+a {
+    color: #ff704d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
